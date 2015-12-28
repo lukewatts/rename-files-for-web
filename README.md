@@ -1,4 +1,4 @@
-# rename-files-for-web
+# Rename for Web
 Python script which when ran within a directory replaces whitespace with hyphens and makes everything lowercase.
 
 ## Features
