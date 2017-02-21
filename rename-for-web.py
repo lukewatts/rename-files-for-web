@@ -1,7 +1,7 @@
 # Python script which when ran within a directory:
 # 1. Replaces whitespace with hyphens
 # 2. Makes everything lowercase
-# 3. If 'append-dimensions' argument is passed it will append dimensions if the file is an image
+# 3. If 'append-dims' argument is passed it will append dimensions if the file is an image
 #
 # @author Luke Watts
 # @version 2.0
@@ -77,7 +77,7 @@ def rename_files():
 
             if ext in ['.jpeg', '.jpg', '.png', '.gif', '.tiff', '.bmp']:
                 
-                if 'append-dimensions' in argv:
+                if 'append-dims' in argv:
                     new_filename = '{0}_{1}{2}'.format(filename_only, file_dimensions, ext)
                 else:
                     new_filename = lowercase_filename
